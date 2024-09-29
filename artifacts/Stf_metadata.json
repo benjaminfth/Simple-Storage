@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createsscontract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listofSimpleStorage",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ssindex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ssindex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ssnum",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sf.sol": "Stf"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleStorage.sol": {
+			"keccak256": "0x4feb12cee83b9e043b32c4b7df96657f012c71185166d701b490c395bc787630",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b262b92cd0010c5804031e817145c8b2b0210b84504439783a8f24c3646af64",
+				"dweb:/ipfs/Qmbq6qM9XtYwiuVYdk237N6QtsaRw7Yt1e613RzAQ3N2W7"
+			]
+		},
+		"sf.sol": {
+			"keccak256": "0xc0f876c898e19c6b0769ca78e9d54380c0395cd803ab1337bbe9c39f6e18f59b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://749fcf7cad410916e073360140f0a7cc70357a1a1333f3f72ba10a4e5df7d201",
+				"dweb:/ipfs/QmQ6aSPNdvxURPdHGfV8zmZrpVj6eEL1aGKJ3hEgdQyRvP"
+			]
+		}
+	},
+	"version": 1
+}
